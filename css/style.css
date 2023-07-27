@@ -208,7 +208,10 @@
     text-align: center;
     margin: auto;
     background-image: url(../img/peakpx.jpg);
-  }
+    background-size: cover;
+}
+
+
   .container {
     /* width:1000px; */
     /*margin:0 auto;pour centrer la page dans le navigateurs*/

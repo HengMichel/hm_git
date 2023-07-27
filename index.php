@@ -7,7 +7,6 @@
     <title>Form PHP</title>
 </head>
 <body>
-    <!-- <form action=""> -->
 
     <h1>Formulaire exo PHP</h1>
 
@@ -30,18 +29,5 @@
         </fieldset>
     </form>
 
-    <!-- </form> -->
-
-        <!-- <label for=""></label>first name<input type="text">
-
-        <label for=""></label>last name<input type="text">
-
-        <label for=""></label>email<input type="text"> -->
-
-      
-
-
-
-   
 </body>
 </html>
