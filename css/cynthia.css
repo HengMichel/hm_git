@@ -207,7 +207,12 @@
       background-image: url("../img/fond.png"); */
     text-align: center;
     margin: auto;
-    background-image: url(../img/peakpx.jpg);
+    background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+    /* background-image: url(../img/gradient.jpg); */
   }
   .container {
     /* width:1000px; */
@@ -223,6 +228,7 @@
       text-align: center;
       color: rgb(218, 90, 150);
       font-size: 50px;
+      margin-top: 50px;
   }
   /*************** END HEADER ***************/
   
@@ -238,14 +244,18 @@
   .ligne {
       margin: auto;
       width: 1000px;
+      margin-top: 100px;
   }
+
+
   input {
       height: 40px;
       width: 80%;
       border-radius: 5px ;
       margin-top: 10px;
-      background-color: rgb(236, 233, 233);
-      border: solid rgb(218, 90, 150);
+      /* background-color: rgb(236, 233, 233); */
+      border: 1px solid rgb(218, 90, 150);
+      /* filter: blur(8px); */
       margin-bottom: 40px;
 
   }
@@ -256,14 +266,18 @@
   
   #submit{
     margin: 10px auto;
-    width: 350px;
+    width: 80%;
     height: 40px;
     border-radius: 5px;
-    border: solid rgb(218, 90, 150);
+    /* border: solid rgb(218, 90, 150); */
     border-width: 2px;
-    background-color: rgb(218, 90, 150);
-    color: white;
+    background-color: #01f3c7;
+    /* background-color: rgb(218, 90, 150); */
+    border: 1px solid #05bf9d;
+    color: white ;
     margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px;
 
 }
   
